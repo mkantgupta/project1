@@ -17,6 +17,6 @@ public class Screenshots {
 		FileUtils.copyFile(sourceFile, new File(directory + fileNames));
 		
 		System.out.println("Hello World MGG");
-		System.out.println("Hi shreya");
+		System.out.println("Hi shreya and soumili");
 	}
 }
