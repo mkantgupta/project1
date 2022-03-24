@@ -16,6 +16,6 @@ public class Screenshots {
 		File sourceFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(sourceFile, new File(directory + fileNames));
 		
-		System.out.println("Hello");
+		System.out.println("Hello World MGGGGGGGGGGGGGGG");
 	}
 }
