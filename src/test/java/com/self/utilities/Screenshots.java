@@ -10,10 +10,12 @@ import org.openqa.selenium.WebDriver;
 
 public class Screenshots {
 	
-	public static void takeScreenshot(WebDriver driver, String fileName) throws IOException {
-		fileName = fileName + ".png";
+	public static void takeScreenshot(WebDriver driver, String fileNames) throws IOException {
+		fileNames = fileNames + ".png";
 		String directory = "E:\\Training\\23 sept selenium\\EcomSelfLearningProject";
 		File sourceFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(sourceFile, new File(directory + fileName));
+		FileUtils.copyFile(sourceFile, new File(directory + fileNames));
+		
+		System.out.println("Hello");
 	}
 }
